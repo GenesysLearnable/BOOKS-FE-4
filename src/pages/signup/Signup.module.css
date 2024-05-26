@@ -33,6 +33,9 @@
     display:flex ;
     align-items: center;
     margin-top:60px;
+    justify-content: flex-start;
+    margin-left: 30px;
+    
     
     
 }
@@ -91,9 +94,10 @@
     width:80%;
     background: transparent;
     margin-left:3px;
-    margin-top: 8px;
+    margin-top: 10px;
     padding:0.5rem 1.2rem 0.5rem 0.6rem ;
-    border: 1px solid var(--input-outline-color);
+    border: 1px solid var(--btn-hover-yellow);
+    color:var(--btn-hover-yellow);
     border-radius: 5px;
     outline:none;
     
@@ -138,7 +142,7 @@ hr{
     padding-left: 30px;
     border:1px solid var(--input-outline-color);
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     background: transparent;
     color:var(--input-outline-color)
 
@@ -147,7 +151,7 @@ hr{
 
 .input_icon {
     position: absolute;
-    top: 60%;
+    top: 65%;
     transform: translateY(-50%);
     left: 10px; 
     color: var(--input-outline-color);
@@ -159,7 +163,7 @@ hr{
 
   .eye_icon {
     position: absolute;
-    top: 60%;
+    top: 65%;
     transform: translateY(-50%);
     right: 23%; 
     cursor: pointer;
@@ -168,13 +172,13 @@ hr{
 
 
 
-.remember{
+/*.remember{
     margin-top:5px;
 }
 
 .checkbox{
     margin:1rem 0.6rem;
-}
+} */
 
 
 .signup{
@@ -183,8 +187,9 @@ hr{
     border:none;
     border-radius: 5px;
     padding:11px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
 
 .signup:hover{
     padding:11px;
@@ -230,3 +235,97 @@ form .bottom_text{
     color:var(--error-message-color);
     
 }
+
+
+        @media (max-width: 768px) {
+
+
+            .signup_container {
+                flex-direction: column;
+                width: 100vw;
+                height: auto;
+                padding: 20px;
+            }
+        
+            .right_page {
+                display: none;
+            }
+        
+            .left_page {
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        
+            .account {
+                margin-top: 50px;
+                text-align: left;
+            }
+        
+            .account > h2 {
+                font-size: 2rem;
+                line-height: 45px;
+            }
+        
+            .account > p {
+                font-size: 0.9rem;
+                line-height: 24px;
+            }
+        
+            .logo {
+                justify-content: flex-start;
+                margin-left: 30px;
+                margin-top: 20px;
+            }
+        
+          
+        
+            .logo_text {
+                font-size: 1.2rem;
+                margin-left: 10px;
+            }
+        
+            .social_btn {
+                width: 90%;
+                margin: 20px auto;
+              
+            }
+
+            .line{
+                margin-top: auto;
+            }
+        
+            hr{
+                width:40%;
+          
+                
+            }
+            .input_box {
+                width: 90%;
+                margin: 10px auto;
+            }
+
+            .input_icon {
+        
+                top: 48%;
+                left: 10px; 
+              }
+        
+            .eye_icon {
+                top:50%;
+                right: 12%;
+            }
+        
+            .signup {
+                width: 90%;
+                margin: 20px auto;
+            }
+        
+            form .bottom_text {
+                margin-left: 0;
+                text-align: center;
+
+            }
+    
+
+        }
