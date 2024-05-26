@@ -218,7 +218,7 @@ export default function Signup() {
 
                             <p className={styles.error}>{errors.confirmPassword}</p>
 
-                            <div className={styles.remember}>
+                          {/*  <div className={styles.remember}>
                                 <input type='checkbox'
                                     id={id}
                                     name='remember'
@@ -229,9 +229,9 @@ export default function Signup() {
                                 <label htmlFor={id}>
                                     Remember me
                                 </label>
-                            </div>
+                            </div> */}
 
-                            <button type='submit' className={styles.signup}  onClick={handleOnClick}>Sign up</button>
+                            <button type='submit' className={styles.signup}  onClick={handleOnClick}>Create Account</button>
 
                             <p className={styles.bottom_text}>Already have an account?   <Link to='../login' className={styles.login}>Login</Link></p>
                             {successmessage && <p>{successmessage}</p>}
