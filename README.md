@@ -102,7 +102,7 @@ Page for managing user bookshelf.
 ### MyNotes.jsx
 Page for managing notes made by user.
 
-### Upload.
+### Upload.jsx
 Page for uploading files.
 
 ### Saved.jsx
