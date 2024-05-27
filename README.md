@@ -1,7 +1,7 @@
 # BookWorm Application
 
 ## Description
-BookWorm is an E-book web application that is a central hub for students to access free ebooks. It offers features like account creation, exploring books, reading, and saving books to a bookshelf. This application is built using React and Vite, ensuring a fast and modern user experience.
+BookWorm is an E-book web application that is a central hub for students to access free ebooks. It offers features like account creation, book exploration, reading, and saving books to a bookshelf. This application is built using React and Vite, ensuring fast and easy user experience.
 
 
 ### Features
@@ -10,16 +10,16 @@ BookWorm is an E-book web application that is a central hub for students to acce
 - Book Reading
 - Bookshelf Management
 - Note-taking and Saving Features
-- Responsive design to fit desktop and mobile screens
+- Responsive Design to Fit Desktop and Mobile Screens
 
 ### Technologies Used
 
-- React
-- Vite
-- React Router
-- React Icons
-- CSS Modules
-- Axios
+- [React](https://legacy.reactjs.org/docs/getting-started.html)
+- [Vite](vitejs.dev)
+- [ReactRouter](reactrouter.com)
+- [ReactIcons](https://react-icons.github.io/react-icons/)
+- [CSSModules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+- [Axios](https://axios-http.com/docs/intro)
 
 ### Installation
 
@@ -42,7 +42,7 @@ BookWorm is an E-book web application that is a central hub for students to acce
    ```
 2. Navigate to the URL provided by Vite on your local host to view the application (eg., http://localhost:5173)
 
-## Building the Project
+### Building the Project
 To create a production build, run:
 
 ```
@@ -52,7 +52,7 @@ npm run build
 
 
 
-## Components
+### Components
 
 ### AboutUs.jsx
 Component displaying information about the BookWorm web application.
@@ -126,3 +126,24 @@ Page for setting user preferences.
 ## API Integration
 The application uses Axios to communicate with the backend API for various operations such as user authentication and book management. The base URL for the API can be configured in the environment variables.
 
+## Contibutions
+For contributions, follow these steps:
+
+- Fork the repository
+- Create a feature branch 
+  ```
+  git checkout -b feature-branch
+
+  ```
+- Write changes
+- Commit changes 
+  ```
+  git commit -m "commit message"
+
+  ```
+- Push to feature branch
+  ```
+  git push origin feature-branch
+
+  ```
+- Create a pull request
